@@ -1,0 +1,118 @@
+/*Master Body Styles*/
+
+h1 {
+    text-align: center;
+    text-shadow: 5px 5px rgba(100,0,0,.5);
+    font-variant: small-caps;
+}
+
+h2 {
+    text-align: center;
+    font-variant: small-caps;
+}
+
+h3 {
+    text-align: center;
+}
+
+h4 {
+    text-align: center;
+}
+
+img {
+    display: block;
+    margin: 0 auto;
+}
+
+img::hover {
+    opacity: 0.7;
+}
+
+blockquote {
+    text-align: center;
+    font-family: 'Optima'
+}
+
+/*Social Media Buttons */
+.fa{ 
+  padding: 1%;
+  text-align: center;
+  text-decoration: none;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-instagram {
+  background: #125688;
+  color: white;
+}
+
+.fa-pinterest {
+  background: #cb2027;
+  color: white;
+}
+
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+/*Nav Bar */
+.listele {
+    display: inline-block;
+    margin-right:2%;
+}
+
+.current {
+    text-decoration: none;
+    color: red;
+    font-variant: small-caps;
+}
+
+.othera {
+ 
+    text-decoration: none;
+    color:black;
+    font-variant:small-caps;
+    
+}
+
+/*Logo Styles*/
+.lgrill {
+    display: inline-block;
+    border: 1px solid white;
+    border-radius: 20px;
+    background-color: beige;
+    padding:1%;
+    box-shadow: 5px 10px rgba(255,0,0,.5);
+}
+
+.grill {
+    display: block;
+    margin: 0 auto;
+}
+
+/*Media Queries */
+@media only screen and (max-width: 1024px) {
+ 
+    .lgrill {
+        margin-right: 5%;;
+        display: inline-block;
+    }
+    
+    .grill {
+        width: 80%;
+    }
+    
+    
+}
+
+@media only screen and (max-width: 500px) {
+    
+    .lgrill {
+        margin-right: 15%;
+    }
+    
+}
